@@ -61,6 +61,6 @@ public class DisplayAddress extends AppCompatActivity {
         et6.setText(String.valueOf(state));
         et7.setText(String.valueOf(pincode));
         et8.setText(String.valueOf(country));
-        //Toast.makeText(getApplicationContext(),"New Activity Started: "+name,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"New Activity Started: "+name,Toast.LENGTH_SHORT).show();
     }
 }
